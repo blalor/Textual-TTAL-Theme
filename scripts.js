@@ -51,7 +51,7 @@ Textual.newMessagePostedToView = function(line)
             var child = children[c];
 
             if (child.nodeType === 3) {
-                var senderMatch = child.textContent.match(/Message from unknown participant (.*): (.*)$/);
+                var senderMatch = child.textContent.match(/Message from unknown participant (.*?): (.*)$/);
                 
                 if (senderMatch !== null) {
                     var nick = senderMatch[1];
