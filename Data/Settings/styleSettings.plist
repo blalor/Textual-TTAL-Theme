@@ -9,9 +9,9 @@
 	<key>Override Channel Font</key>
 	<dict>
 		<key>Font Name</key>
-		<string>Lucida Grande</string>
+		<string></string>
 		<key>Font Size</key>
-		<integer>11</integer>
+		<integer>0</integer>
 	</dict>
 	<key>Indentation Offset</key>
 	<integer>6</integer>
@@ -20,6 +20,6 @@
 	<key>Template Engine Version</key>
 	<integer>2</integer>
 	<key>Force Invert Sidebars</key>
-	<true/>
+	<false/>
 </dict>
 </plist>
