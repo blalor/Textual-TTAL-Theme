@@ -90,7 +90,10 @@ Textual.newMessagePostedToView = function(line)
                    {{/anchorInlineImageAvailable}}
                 >{{{anchorTitle}}}</a>
                 */
+
                 newHTML += child.href;
+            } else if (child.nodeName === "SPAN" && child.getAttribute("class") === "inlineImageCell") {
+                // skip Textual's image munging embedded into the existing html
             } else {
                 newHTML += child.innerHTML;
             }
